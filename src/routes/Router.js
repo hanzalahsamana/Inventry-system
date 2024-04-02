@@ -109,27 +109,28 @@ const ThemeRoutes = [
     path: '/',
     element: <BlankLayout />,
     children: [
-      { path: '/', name: 'Login',exact: true, element: <LoginFormik /> },
-      { path: '404', element: <Error /> },
+      { path: '/', exact: true, element: <LoginFormik /> },
       { path: 'registerformik', element: <RegisterFormik /> },
       { path: 'loginformik', element: <LoginFormik /> },
       { path: 'maintanance', element: <Maintanance /> },
       { path: 'lockscreen', element: <LockScreen /> },
       { path: 'recoverpwd', element: <RecoverPassword /> },
+      { path: '404', element: <Error /> },
+
     ],
   },
-  {
-    path: '/',
-    element: <FullLayout />,
-    children: [
-      { path: '/dashboards/modern', name: 'Modern', exact: true, element: <Modern /> },
-      { path: '/dashboards/awesome', name: 'awesome', exact: true, element: <Awesome /> },
-      { path: '/dashboards/classy', name: 'Classy', exact: true, element: <Classy /> },
-      { path: '/dashboards/analytical', name: 'analytical', exact: true, element: <Analytical /> },
-      { path: '/dashboards/minimal', name: 'minimal', exact: true, element: <Minimal /> },
-      { path: '*', element: <Navigate to="404" /> },
-    ],
-  },
+  // {
+  //   path: '/',
+  //   element: <FullLayout />,
+  //   children: [
+  //     { path: '/dashboards/modern', name: 'Modern', exact: true, element: <Modern /> },
+  //     { path: '/dashboards/awesome', name: 'awesome', exact: true, element: <Awesome /> },
+  //     { path: '/dashboards/classy', name: 'Classy', exact: true, element: <Classy /> },
+  //     { path: '/dashboards/analytical', name: 'analytical', exact: true, element: <Analytical /> },
+  //     { path: '/dashboards/minimal', name: 'minimal', exact: true, element: <Minimal /> },
+  //     { path: '*', element: <Navigate to="404" /> },
+  //   ],
+  // },
 ];
 
 export default ThemeRoutes;
