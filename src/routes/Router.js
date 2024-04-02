@@ -119,18 +119,18 @@ const ThemeRoutes = [
 
     ],
   },
-  // {
-  //   path: '/',
-  //   element: <FullLayout />,
-  //   children: [
-  //     { path: '/dashboards/modern', name: 'Modern', exact: true, element: <Modern /> },
-  //     { path: '/dashboards/awesome', name: 'awesome', exact: true, element: <Awesome /> },
-  //     { path: '/dashboards/classy', name: 'Classy', exact: true, element: <Classy /> },
-  //     { path: '/dashboards/analytical', name: 'analytical', exact: true, element: <Analytical /> },
-  //     { path: '/dashboards/minimal', name: 'minimal', exact: true, element: <Minimal /> },
-  //     { path: '*', element: <Navigate to="404" /> },
-  //   ],
-  // },
+  {
+    path: '/',
+    element: <FullLayout />,
+    children: [
+      { path: '/dashboards/modern', name: 'Modern', exact: true, element: <Modern /> },
+      { path: '/dashboards/awesome', name: 'awesome', exact: true, element: <Awesome /> },
+      { path: '/dashboards/classy', name: 'Classy', exact: true, element: <Classy /> },
+      { path: '/dashboards/analytical', name: 'analytical', exact: true, element: <Analytical /> },
+      { path: '/dashboards/minimal', name: 'minimal', exact: true, element: <Minimal /> },
+      { path: '*', element: <Navigate to="404" /> },
+    ],
+  },
 ];
 
 export default ThemeRoutes;
