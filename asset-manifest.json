@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Inventry-system/static/css/main.2eb17524.css",
-    "main.js": "/Inventry-system/static/js/main.1532d6e7.js",
+    "main.js": "/Inventry-system/static/js/main.6e882481.js",
     "static/js/2488.9cbdfc17.chunk.js": "/Inventry-system/static/js/2488.9cbdfc17.chunk.js",
     "static/js/7255.f8354503.chunk.js": "/Inventry-system/static/js/7255.f8354503.chunk.js",
     "static/js/4888.f7f2f2f2.chunk.js": "/Inventry-system/static/js/4888.f7f2f2f2.chunk.js",
@@ -173,7 +173,7 @@
     "static/media/login-bg-right.svg": "/Inventry-system/static/media/login-bg-right.8db5a9fe4230b1996c1088f3c72a1eb1.svg",
     "static/media/login-bgleft.svg": "/Inventry-system/static/media/login-bgleft.86cfa8964ef473760adbe3b9a05e7377.svg",
     "main.2eb17524.css.map": "/Inventry-system/static/css/main.2eb17524.css.map",
-    "main.1532d6e7.js.map": "/Inventry-system/static/js/main.1532d6e7.js.map",
+    "main.6e882481.js.map": "/Inventry-system/static/js/main.6e882481.js.map",
     "2488.9cbdfc17.chunk.js.map": "/Inventry-system/static/js/2488.9cbdfc17.chunk.js.map",
     "7255.f8354503.chunk.js.map": "/Inventry-system/static/js/7255.f8354503.chunk.js.map",
     "4888.f7f2f2f2.chunk.js.map": "/Inventry-system/static/js/4888.f7f2f2f2.chunk.js.map",
@@ -309,6 +309,6 @@
   },
   "entrypoints": [
     "static/css/main.2eb17524.css",
-    "static/js/main.1532d6e7.js"
+    "static/js/main.6e882481.js"
   ]
 }
