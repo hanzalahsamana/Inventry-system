@@ -6,79 +6,67 @@ import {
   Input,
   FormGroup,
   FormText,
+  Form,
 } from "reactstrap";
 import ComponentCard from "../../components/ComponentCard";
 // import BreadCrumbs from '../../layouts/breadcrumbs/BreadCrumbs';
-
 import ProgressCards from "../../components/dashboard/modernDashboard/ProgressCards";
 import RevenueStatistics from "../../components/dashboard/modernDashboard/RevenueStatistics";
-import SalesMonth from "../../components/dashboard/modernDashboard/SalesMonth";
-import SalesPrediction from "../../components/dashboard/modernDashboard/SalesPrediction";
-import SalesDifference from "../../components/dashboard/modernDashboard/SalesDifference";
-import ProfileCard from "../../components/dashboard/modernDashboard/ProfileCard";
-import ProjectTable from "../../components/dashboard/modernDashboard/ProjectTable";
-import RecentMessages from "../../components/dashboard/modernDashboard/RecentMessages";
-import Chat from "../../components/dashboard/modernDashboard/Chat";
-import WeatherReport from "../../components/dashboard/modernDashboard/WeatherReport";
-import Blogs from "../../components/dashboard/modernDashboard/Blogs";
-import { Form } from "react-router-dom";
 
 const Classic = () => {
   return (
     <>
       {/* <BreadCrumbs /> */}
-      {/* <Row>
+      <Row>
         <Col sm="12" md="6" lg="4">
           <ComponentCard
-            title="Default Input"
+            title="Filters:"
             subtitle={
               <p>
-                To use add <code>Input</code> in the form group
+                Date Range
               </p>
             }
           >
             <Form>
               <FormGroup>
-                <Input type="text" />
+                <Input type="date" />
               </FormGroup>
             </Form>
           </ComponentCard>
         </Col>
         <Col sm="12" md="6" lg="4">
           <ComponentCard
-            title="Input With Helper Text"
+            title="Filters:"
             subtitle={
               <p>
-                To use add <code>Formtext</code> in the form group
+                Products
               </p>
             }
           >
             <Form>
               <FormGroup className="mb-0">
-                <Input type="text" placeholder="Name" />
-                <FormText className="text-muted">Helper Text</FormText>
+                <Input type="text" placeholder="Products" />
               </FormGroup>
             </Form>
           </ComponentCard>
         </Col>
         <Col sm="12" md="6" lg="4">
           <ComponentCard
-            title="Password"
+            title="Filters:"
             subtitle={
               <p>
-                To use add <code>type=&quot;password&quot;</code> in the form
-                group
+                Fullfilled By
               </p>
             }
           >
             <Form>
               <FormGroup>
-                <Input type="password" placeholder="password" />
+                <Input type="text" placeholder="Fullfilled By" />
               </FormGroup>
             </Form>
           </ComponentCard>
         </Col>
-      </Row> */}
+      </Row>
       <ProgressCards />
       <RevenueStatistics />
       {/* <Row>

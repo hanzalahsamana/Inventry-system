@@ -46,7 +46,7 @@ const SidebarData = [
     // ],
   },
   {
-    title: 'Inventery',
+    title: 'Inventory',
     href: '/dashboards/modern',
     id: 1,
     icon: <Icon.Book />,

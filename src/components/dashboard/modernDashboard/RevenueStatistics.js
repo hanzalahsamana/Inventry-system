@@ -84,18 +84,18 @@ const RevenueStatistics = () => {
   ];
   return (
     <DashCard
-      title="Revenue Statistics"
+      title="Sales Overview"
       subtitle="January 2022"
-      actions={
-        <div className="hstack gap-2">
-          <div className="d-flex align-items-center">
-            <i className="bi bi-circle-fill fs-6 me-2 text-success"></i>Product A
-          </div>
-          <div className="d-flex align-items-center">
-            <i className="bi bi-circle-fill fs-6 me-2 text-primary"></i>Product B
-          </div>
-        </div>
-      }
+      // actions={
+      //   <div className="hstack gap-2">
+      //     <div className="d-flex align-items-center">
+      //       <i className="bi bi-circle-fill fs-6 me-2 text-success"></i>Product A
+      //     </div>
+      //     <div className="d-flex align-items-center">
+      //       <i className="bi bi-circle-fill fs-6 me-2 text-primary"></i>Product B
+      //     </div>
+      //   </div>
+      // }
     >
       <div className="revenue" style={{ height: '350px' }}>
         <Chart options={optionsRevenue} series={seriesRevenue} type="area" height="350" />

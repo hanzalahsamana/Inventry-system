@@ -34,7 +34,7 @@ const LoginFormik = () => {
               <CardBody className="p-4 m-1">
                 <h4 className="mb-0 fw-bold">Login</h4>
                 <small className="pb-4 d-block">
-                  Do not have an account? <Link to="/registerformik">Sign Up</Link>
+                  Don't have an account? <Link to="/registerformik">Sign Up</Link>
                 </small>
                 <Formik
                   initialValues={initialValues}
@@ -78,7 +78,7 @@ const LoginFormik = () => {
                           Remember me
                         </Label>
                         <Link className="ms-auto text-decoration-none" to="/recoverpwd">
-                          <small>Forgot Pwd?</small>
+                          <small>Forgot Password?</small>
                         </Link>
                       </FormGroup>
                       <FormGroup>

@@ -16,8 +16,8 @@ const ProgressCardsData = ({ title, icon, subtext, pColor, pPercent, income }) =
               </h2>
               <span className="text-muted fw-light">{subtext}</span>
             </div>
-            <span className={`text-${pColor}`}>{pPercent}%</span>
-            <Progress color={pColor} value={pPercent} />
+            <span className={`text-${pColor}`}>{pPercent}</span>
+            <Progress color={pColor} value={pPercent} className='mt-4'/>
           </CardBody>
         </Card>
       </Col>

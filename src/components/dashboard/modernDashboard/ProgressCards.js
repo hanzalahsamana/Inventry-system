@@ -10,36 +10,28 @@ const ProgressCards = () => {
     /*--------------------------------------------------------------------------------*/
     <Row>
       <ProgressCardsData
-        title= "Daily Sales"
+        title= "Today"
         income="120"
         icon= "arrow-down-short"
         pColor="success"
-        subtext="Todays Income"
-        pPercent="80"
       />
       <ProgressCardsData
-        title= "Weekly Sales"
+        title= "Yesterday"
         income="5,000"
         icon= "arrow-up-short"
         pColor="primary"
-        subtext="Todays Income"
-        pPercent="30"
       />
       <ProgressCardsData
-        title= "Monthly Sales"
+        title= "This Month"
         income="8,000"
         icon= "arrow-up-short"
         pColor="info"
-        subtext="Todays Income"
-        pPercent="60"
       />
       <ProgressCardsData
-        title= "Yearly Sales"
+        title= "Last Month"
         income="12,000"
         icon= "arrow-down-short"
         pColor="danger"
-        subtext="Todays Income"
-        pPercent="80"
       />
     </Row>
   );

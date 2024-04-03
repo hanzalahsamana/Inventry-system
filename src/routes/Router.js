@@ -1,6 +1,7 @@
 import { lazy } from 'react';
 import { Navigate } from 'react-router-dom';
 import Loadable from '../layouts/loader/Loadable';
+import Home from '../components/HomePage/home';
 /****Layouts*****/
 
 const FullLayout = Loadable(lazy(() => import('../layouts/FullLayout')));
@@ -109,7 +110,9 @@ const ThemeRoutes = [
     path: '/',
     element: <BlankLayout />,
     children: [
-      { path: '/', exact: true, element: <LoginFormik /> },
+
+      { path: '/', exact: true, element: <Home /> },
+      { path: 'login', exact: true, element: <LoginFormik /> },
       { path: 'registerformik', element: <RegisterFormik /> },
       { path: 'loginformik', element: <LoginFormik /> },
       { path: 'maintanance', element: <Maintanance /> },
@@ -123,11 +126,11 @@ const ThemeRoutes = [
     path: '/',
     element: <FullLayout />,
     children: [
-      { path: '/dashboards/modern', name: 'Modern', exact: true, element: <Modern /> },
-      { path: '/dashboards/awesome', name: 'awesome', exact: true, element: <Awesome /> },
-      { path: '/dashboards/classy', name: 'Classy', exact: true, element: <Classy /> },
-      { path: '/dashboards/analytical', name: 'analytical', exact: true, element: <Analytical /> },
-      { path: '/dashboards/minimal', name: 'minimal', exact: true, element: <Minimal /> },
+      { path: 'dashboards/modern', name: 'Modern', exact: true, element: <Modern /> },
+      { path: 'dashboards/awesome', name: 'awesome', exact: true, element: <Awesome /> },
+      { path: 'dashboards/classy', name: 'Classy', exact: true, element: <Classy /> },
+      { path: 'dashboards/analytical', name: 'analytical', exact: true, element: <Analytical /> },
+      { path: 'dashboards/minimal', name: 'minimal', exact: true, element: <Minimal /> },
       { path: '*', element: <Navigate to="404" /> },
     ],
   },
