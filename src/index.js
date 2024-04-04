@@ -14,7 +14,7 @@ const root = createRoot(container);
 
 root.render(
   <Provider store={store}>
-    <BrowserRouter basename='Inventry-system'>
+    <BrowserRouter>
       <App />
     </BrowserRouter>
   </Provider>,
