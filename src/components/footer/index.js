@@ -23,7 +23,7 @@ function Footer() {
               </div>
             </div>
             <div className="text-small text-muted aligns-content-wrap">
-              <div className="mb-1">&copy; Copyright <strong>607devlabs</strong>. All rights reserved.</div>
+              <div className="mb-1">&copy; Copyright <strong></strong>. All rights reserved.</div>
             </div>
           </div>
           <div className="col-lg-2 col-md-6 mb-3 aligns-content-wrap">
@@ -47,7 +47,7 @@ function Footer() {
                 United States
               </address>
               {/* <div className="mb-1"><strong>Phone:</strong><br />+0718-111-0011</div> */}
-              <div className="mb-1"><strong>Email:</strong><br />607devlabs@gmail.com</div>
+              <div className="mb-1"><strong>Email:</strong><br />@gmail.com</div>
             </div>
           </div>
         </div>

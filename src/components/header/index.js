@@ -8,24 +8,24 @@ function Header() {
     <header>
       <div className="cover bg-light">
         <div className="container px-2">
-          <div className="row">
+          <div className="row d-flex align-items-center">
             <div className="col-lg-6">
               <div className="mt-5 pt-lg-5 aligns-content-wrap">
-                <h1 className="intro-title marker" data-aos="fade-left" data-aos-delay="50">Your Success is Our Mission. </h1>
-                <p className="lead fw-normal mt-4" data-aos="fade-up" data-aos-delay="100">Leverage agile frameworks to provide a robust synopsis for high-level overviews. Iterative approaches to corporate strategy foster collaborative thinking.</p>
+                <h1 className="intro-title marker" data-aos="fade-left" data-aos-delay="50">Wallmarts Preffered Inventory Manager </h1>
+                <p className="lead fw-normal mt-4" data-aos="fade-up" data-aos-delay="100">Never go out-of-stock and miss out on sales.Effectively manage your inventory.</p>
                 <div className="mt-3" data-aos="fade-up" data-aos-delay="200">
                   <a className="btn btn-primary shadow-sm mt-1 me-2"  onClick={() => navigate('login')}>Log In <i className="fas fa-arrow-right ms-1"></i></a>
-                  <a className="btn btn-outline-secondary mt-1" data-bigpicture={{ "ytSrc": "aqz-KE-bpKQ" }} href="#services">Our Services <i class="fas fa-solid fa-rocket ms-1"></i></a>
+                  <a className="btn btn-outline-secondary mt-1" data-bigpicture={{ "ytSrc": "aqz-KE-bpKQ" }} onClick={() => navigate('signup')}>Sign Up</a>
                 </div>
               </div>
             </div>
             <div className="col-lg-6 p-3 pe-lg-0" data-aos="fade-left" data-aos-delay="100">
-              <img className="pt-2 img-fluid" src={image} alt="hello" />
+              <img className="img-fluid" src={image} alt="hello" />
             </div>
           </div>
         </div>
       </div>
-      <div className="wave-bg"></div>
+      {/* <div className="wave-bg"></div> */}
     </header>
   );
 }

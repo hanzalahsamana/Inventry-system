@@ -7,13 +7,7 @@ import WorkWithUs from "../workWithUs";
 import ServicesSection from "../serviceSection";
 import TeamSection from "../teamSection";
 import Footer from "../footer";
-import '../../../src/App.css';
-import '../../../src/css/bootstrap.css';
-import '../../../src/css/main.css';
-import '../../../src/css/bootstrap.min.css';
-import '../../../src/css/font-awesome/css/all.css';
-import '../../../src/css/bootstrap-icons/bootstrap-icons.css';
-import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+import 'aos/dist/aos.css';
 const Home = () => {
   return (
     <div>
@@ -21,8 +15,6 @@ const Home = () => {
         <Header/>
         <WorkWithUs/>
         <TeamSection/>
-        <ServicesSection/>
-        <ContactSection/>
         <Footer/>
     </div>
   );

@@ -2,6 +2,8 @@ import { lazy } from 'react';
 import { Navigate } from 'react-router-dom';
 import Loadable from '../layouts/loader/Loadable';
 import Home from '../components/HomePage/home';
+import ProjectTables from '../components/dashboard/ProjectTable';
+import TicketListing from '../components/stockTable/StockTable';
 /****Layouts*****/
 
 const FullLayout = Loadable(lazy(() => import('../layouts/FullLayout')));
@@ -113,7 +115,7 @@ const ThemeRoutes = [
 
       { path: '/', exact: true, element: <Home /> },
       { path: 'login', exact: true, element: <LoginFormik /> },
-      { path: 'registerformik', element: <RegisterFormik /> },
+      { path: 'signup', element: <RegisterFormik /> },
       { path: 'loginformik', element: <LoginFormik /> },
       { path: 'maintanance', element: <Maintanance /> },
       { path: 'lockscreen', element: <LockScreen /> },
@@ -131,6 +133,7 @@ const ThemeRoutes = [
       { path: 'dashboards/classy', name: 'Classy', exact: true, element: <Classy /> },
       { path: 'dashboards/analytical', name: 'analytical', exact: true, element: <Analytical /> },
       { path: 'dashboards/minimal', name: 'minimal', exact: true, element: <Minimal /> },
+      { path: 'table', name: 'table', exact: true, element: <TicketListing /> },
       { path: '*', element: <Navigate to="404" /> },
     ],
   },

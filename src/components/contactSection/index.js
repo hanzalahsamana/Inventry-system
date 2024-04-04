@@ -40,7 +40,7 @@ function ContactSection() {
                   <div className="pb-1">Email:</div>
                 </div>
                 <div className="col-sm-10">
-                  <div className="pb-1 fw-bolder aligns-content-wrap">607devlabs@gmail.com</div>
+                  <div className="pb-1 fw-bolder aligns-content-wrap">@gmail.com</div>
                 </div>
                 {/* <div className="col-sm-2 aligns-content-wrap">
                   <div className="pb-1">Skype:</div>
